@@ -11,13 +11,16 @@ I build infrastructure for LLM APIs in Rust, and I port Rust desktop apps to Ope
 
 ### Projects
 
-| | |
-| --- | --- |
-| **[gproxy](https://github.com/LeenHawk/gproxy)** ![stars](https://img.shields.io/github/stars/LeenHawk/gproxy?style=flat&label=%E2%98%85&color=0b6e69) | LLM API gateway. Speaks the OpenAI, Claude and Gemini protocols and translates between them, with multi-provider routing, per-key quotas and rate limits, credential failover, usage auditing and a built-in admin console. Ships as a native binary, a Docker image and a WASM/edge build. |
-| **[gproxy-protocol](https://github.com/LeenHawk/gproxy-protocol)** | gproxy's wire-format types and cross-protocol transforms, as a standalone crate. |
-| **[sgproxy](https://github.com/LeenHawk/sgproxy)** ![stars](https://img.shields.io/github/stars/LeenHawk/sgproxy?style=flat&label=%E2%98%85&color=0b6e69) | A single-channel gproxy for Claude Code on Cloudflare Workers and Durable Objects. |
-| **[tauri-harmony](https://github.com/LeenHawk/tauri-harmony)** | Reproducible Tauri build toolchain for OpenHarmony and HarmonyOS NEXT, published daily to GHCR. |
-| **[pi-gproxy](https://github.com/LeenHawk/pi-gproxy)** · **[st-compress-cache](https://github.com/LeenHawk/st-compress-cache)** | Clients for gproxy: OAuth and model discovery for Pi, and context compression with prompt-cache breakpoints for SillyTavern. |
+- **[gproxy](https://github.com/LeenHawk/gproxy)** ![stars](https://img.shields.io/github/stars/LeenHawk/gproxy?style=flat&label=%E2%98%85&color=0b6e69)  
+  LLM API gateway. Speaks the OpenAI, Claude and Gemini protocols and translates between them, with multi-provider routing, per-key quotas and rate limits, credential failover, usage auditing and a built-in admin console. Ships as a native binary, a Docker image and a WASM/edge build.
+- **[gproxy-protocol](https://github.com/LeenHawk/gproxy-protocol)**  
+  gproxy's wire-format types and cross-protocol transforms, as a standalone crate.
+- **[sgproxy](https://github.com/LeenHawk/sgproxy)** ![stars](https://img.shields.io/github/stars/LeenHawk/sgproxy?style=flat&label=%E2%98%85&color=0b6e69)  
+  A single-channel gproxy for Claude Code on Cloudflare Workers and Durable Objects.
+- **[tauri-harmony](https://github.com/LeenHawk/tauri-harmony)**  
+  Reproducible Tauri build toolchain for OpenHarmony and HarmonyOS NEXT, published daily to GHCR.
+- **[pi-gproxy](https://github.com/LeenHawk/pi-gproxy)** · **[st-compress-cache](https://github.com/LeenHawk/st-compress-cache)**  
+  Clients for gproxy: OAuth and model discovery for Pi, and context compression with prompt-cache breakpoints for SillyTavern.
 
 gproxy installs from a [Scoop bucket](https://github.com/LeenHawk/scoop-bucket) on Windows; winget packages are in review.
 
